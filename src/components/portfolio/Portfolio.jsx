@@ -2,6 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.jpg'
 import COM from '../../assets/comingsoon.png'
 
 const data = [
@@ -16,11 +17,18 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'React Personal Portfolio Website',
-    github: 'https://github.com/aungkaungmyatpaing',
+    github: 'https://github.com/aungkaungmyatpaing/aungkaungmyatpaing_portfolio',
     demo: 'https://dribbble.com/MagDog'
   },
   {
     id: 3,
+    image: IMG3,
+    title: 'AmataHotel landing Website with React, Tailwind',
+    github: 'https://github.com/aungkaungmyatpaing/amata_restaurant_landing',
+    demo: 'https://dribbble.com/MagDog'
+  },
+  {
+    id: 4,
     image: COM,
     title: 'On My Way',
     github: 'https://github.com/aungkaungmyatpaing',
