@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.png'
 import COM from '../../assets/comingsoon.png'
 
 const data = [
@@ -29,6 +30,13 @@ const data = [
   },
   {
     id: 4,
+    image: IMG4,
+    title: 'WildRift landing Website with React, Tailwind',
+    github: 'https://github.com/aungkaungmyatpaing/wildrift_landing',
+    demo: 'https://dribbble.com/MagDog'
+  },
+  {
+    id: 5,
     image: COM,
     title: 'On My Way',
     github: 'https://github.com/aungkaungmyatpaing',
