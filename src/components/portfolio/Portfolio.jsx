@@ -4,6 +4,7 @@ import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.png'
+import IMG5 from '../../assets/portfolio5.png'
 import COM from '../../assets/comingsoon.png'
 
 const data = [
@@ -37,6 +38,13 @@ const data = [
   },
   {
     id: 5,
+    image: IMG5,
+    title: 'Spin Wheel (Client Request), Mobile View Only',
+    github: 'https://github.com/aungkaungmyatpaing/spin_wheel',
+    demo: 'https://japangyiyogo.com/home'
+  },
+  {
+    id: 6,
     image: COM,
     title: 'On My Way',
     github: 'https://github.com/aungkaungmyatpaing',
@@ -61,7 +69,7 @@ const Portfolio = () => {
                   <h3>{title}</h3>
                   <div className="portfolio__item-cta">
                     <a href={github} className='btn' target='_blank'>Github</a>
-                    <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <a href={demo} className='btn btn-primary' target='_blank'>Client Site</a>
                   </div>
                 </article>
               )
