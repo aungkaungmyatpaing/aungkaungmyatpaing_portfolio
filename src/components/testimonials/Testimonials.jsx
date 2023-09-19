@@ -10,8 +10,8 @@ import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+// import 'swiper/css';
+// import 'swiper/css/pagination';
 
 const data = [
   {
@@ -37,7 +37,7 @@ const Testimonials = () => {
       <h5>Review from other</h5>
       <h2>Testimonails</h2>
 
-      <Swiper className="container testimonials__container"
+      {/* <Swiper className="container testimonials__container"
          // install Swiper modules
          modules={[ Pagination]}
          spaceBetween={40}
@@ -57,7 +57,7 @@ const Testimonials = () => {
             )
           })
         }
-      </Swiper>
+      </Swiper> */}
     </section>
   )
 }
